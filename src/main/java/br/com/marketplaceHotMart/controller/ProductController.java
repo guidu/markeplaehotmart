@@ -47,15 +47,16 @@ public class ProductController {
 		model.addAllAttributes(productions);
 		return "list_product";
 	}
-	
+
 	@GetMapping("/deleteProduct")
 	public String deleteProduct(@ModelAttribute ProductDTO productDTO, Model model) {
 		Product product = new Product(productDTO);
 		productService.delete(product);
 		return "list_product";
 	}
+
 	@PostMapping("/findProduct/{id}")
-	public String findProduct(@ModelAttribute Integer identifier, Model model) { 
-		return "find_product"; 
+	public String findProduct(@ModelAttribute Integer identifier, Model model) {
+		return "find_product";
 	}
 }
