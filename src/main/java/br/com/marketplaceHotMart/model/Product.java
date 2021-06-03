@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import br.com.marketplaceHotMart.dto.ProductDTO;
 
 @Entity
-@Table(name = "tbproduct", schema = "markeplaehotmart")
+@Table(name = "tbproduct")
 public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

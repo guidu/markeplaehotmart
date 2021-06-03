@@ -13,7 +13,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tbsale", schema = "markeplaehotmart")
+@Table(name = "tbsale")
 public class Sale {
 	// Venda: identificador, vendedor, comprador, produto
 

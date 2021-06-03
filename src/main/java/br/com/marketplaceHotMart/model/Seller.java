@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 //vendedor
 @Entity
-@Table(name = "tbsaller", schema = "markeplaehotmart")
+@Table(name = "tbsaller")
 public class Seller {
 
 	@Id

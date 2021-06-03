@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tbcuyer", schema = "markeplaehotmart")
+@Table(name = "tbcuyer")
 //comprador
 public class Cuyer {
 	@Id
